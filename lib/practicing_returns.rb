@@ -8,5 +8,5 @@ def hello(array)
   end
 end
 
-binding.pry
+
 hello([array]) { |name| puts "Hi, #{name}" }
